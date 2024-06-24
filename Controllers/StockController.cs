@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using social_media_finance_app.Data;
+using social_media_finance_app.Mappers;
 
 namespace social_media_finance_app.Controllers
 {
@@ -21,7 +22,7 @@ namespace social_media_finance_app.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var stocks = _context.Stock.ToList();
+            var stocks = _context.Stock.ToList().Select(s => s.ToStockDto());
             return Ok(stocks);
         }
 
@@ -30,10 +31,11 @@ namespace social_media_finance_app.Controllers
         {
             var stock = _context.Stock.Find(id);
 
-            if(stock == null) {
+            if (stock == null)
+            {
                 return NotFound();
             }
-            return Ok(stock);
+            return Ok(stock.ToStockDto());
         }
     }
 }

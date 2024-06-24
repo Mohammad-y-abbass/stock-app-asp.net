@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("social-media-finance-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02c1fa76ac62f9c4eac3248107038ed6d9cc8b19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e296e68fde621201b0842ee47b411acbd555d304")]
 [assembly: System.Reflection.AssemblyProductAttribute("social-media-finance-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("social-media-finance-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
