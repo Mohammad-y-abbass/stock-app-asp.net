@@ -31,3 +31,4 @@ C:\Users\dell\OneDrive - Lebanese University\Desktop\social-media-finance-app\ob
 C:\Users\dell\OneDrive - Lebanese University\Desktop\social-media-finance-app\obj\Debug\net8.0\social-media-finance-app.pdb
 C:\Users\dell\OneDrive - Lebanese University\Desktop\social-media-finance-app\obj\Debug\net8.0\social-media-finance-app.genruntimeconfig.cache
 C:\Users\dell\OneDrive - Lebanese University\Desktop\social-media-finance-app\obj\Debug\net8.0\ref\social-media-finance-app.dll
+C:\Users\dell\OneDrive - Lebanese University\Desktop\social-media-finance-app\obj\Debug\net8.0\social-media-finance-app.sourcelink.json
