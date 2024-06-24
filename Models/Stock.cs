@@ -8,7 +8,7 @@ namespace social_media_finance_app.Models
 {
     public class Stock
     {
-        public int StockId { get; set; }
+        public int Id { get; set; }
         public string Symbol { get; set; } = string.Empty;
         public string CompanyName { get; set; } = string.Empty;
 
